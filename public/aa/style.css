@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+   font-family:  'Josefin Sans', sans-serif;
+}
+body{
+    
+    background-image:url("back.jpg");
+    background-size: cover;
+       
+       
+   }
+   .brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand {
+    margin-left:20px;
+    color: orangered;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+
+
+header{
+    width:100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)),url(images/img-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+nav{
+    width: 100%;
+    height:15VH;
+    color: white;
+    background: rgba(7, 5, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.log{
+    width: 25%;
+    text-align: center;
+
+}
+.menu{
+    width: 40%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+   
+}
+ 
+
+a{
+    width:25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+main{
+    width:100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+
+}
+
+ h3{
+   font-size: 35px; font-weight: 200; letter-spacing: 3px;
+   text-shadow: 1px 1px 2px black;
+
+}
+
+
+section h1{
+    margin : 20px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow:2px 1px  5px black ;
+    text-transform: uppercase;
+}
+
+section p{
+    font-size: 25px;
+    color: rgb(236, 250, 250);
+    word-spacing: 25px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+
+.home{
+   color:#00b894 ;
+   font-weight: bolder;
+
+}
+
+section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all .5s ease;
+}
+
+.button1{
+    background-color: orangered;
+    color: black;
+    font-weight: bold;
+
+}
+.button3{
+    background-color: #00b894;
+    text-transform:lowercase;
+    border-radius: 8px;
+    padding: 10px;
+}
+.button3:hover{
+    background-color:rgb(249, 123, 123);
+    color: white;
+    font-weight: bold;
+}
+.button1:hover{
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+}
+.button2:hover{
+    background-color:rgb(249, 123, 123);
+    color: black;
+    font-weight: bold;
+
+}
+
+.button2{
+    background-color: #00b894;
+   color: white;
+   font-weight: bold;
+}
+
+.change_content:after{
+    content: '';
+    animation: changetext 10S infinite linear;
+    color:#00b894 ;
+}
+
+@keyframes  changetext {
+    0% {content:" happiness";}
+    20% {content:" Peace";}
+    40% {content:" Spirituality";}
+    60% {content:" medition";}
+    80% {content:" happiness";}
+    100% {content:" Peace";}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.SignUp {
+    width: 400px;
+    background: #fff;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.SignUp > input {
+    border-radius: 8px;
+    border: 2px solid #dddfe2;
+    outline: none;
+    color: #1d2129;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.75rem;
+    width: 92%;
+    font-size: 1rem;
+}
+
+.SignUp > .button {
+    background: #1877f2;
+    border: 1px solid #1877f2;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}    
+
+
+
+
+.login {
+    width: 400px;
+    background: #fff;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.login > input {
+    border-radius: 8px;
+    border: 2px solid #dddfe2;
+    outline: none;
+    color: #1d2129;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.75rem;
+    width: 92%;
+    font-size: 1rem;
+}
+
+.login > .button {
+    background: #1877f2;
+    border: 1px solid #1877f2;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.mainLog{
+    width:100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(5, 0, 0);
+
+
+}
+
+.mainSignUp{
+    width:100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(5, 0, 0);
+
+}

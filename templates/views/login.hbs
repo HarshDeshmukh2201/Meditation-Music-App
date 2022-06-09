@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="aa/login.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body>
+    <section  >
+  <div class="container-fluid h-custom">
+    <div class="card-body p-md-5   d-flex justify-content-center align-items-center h-100" >
+      <div class="col-md-9 col-lg-6 col-xl-5">
+        <img src="aa/logo.png" width="200px" highte="200px"class="img-fluid" alt="Sample image">
+      </div>
+      <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+      
+          <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
+            <span class="badge bg-dark"><h3>   Login to mediS  </h3></span>
+            
+          </div>
+
+          <div class="divider d-flex align-items-center my-4">
+            <p class="text-center fw-bold mx-3 mb-0">s</p>
+          </div>
+
+        
+
+          <form  action="/login" method="POST"  onsubmit="return validation()">
+            <!-- Email input -->
+
+            <div>
+                  <div class="form-outline mb-4">
+                        <label class="form-label" for="form3Example3">Email address</label>
+            <input  name="email" type="email" id="form3Example3" class="form-control form-control-lg"
+              placeholder="Enter a valid email address" />
+        
+           <span id="uersname" class="text-danger font-weight-bold"></span>
+          </div>
+           
+
+          <!-- Password input -->
+          <div class="form-outline mb-3">
+              <label class="form-label" for="form3Example4">Password</label>
+            <input name="password" type="password" id="form3Example4" class="form-control form-control-lg"
+              placeholder="Enter password" />
+          <span id="uersname1" class="text-danger font-weight-bold"></span>
+          </div>
+
+ 
+         <div class="text-center text-lg-start mt-4 pt-2">
+            <button type="submit"name="submit" value="submit" class="btn btn-primary btn-lg"
+              style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button>
+           
+          </div>
+            </div>
+
+      
+
+          </form>
+           <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="/register"
+                class="link-danger">Register</a></p>
+</div>
+
+
+  
+
+
+        
+
+     
+      </div>
+    </div>
+  </div>
+ 
+</section>
+<script src="aa/val.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></scrip>
+</body>
+</html>
